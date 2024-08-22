@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E771874C2C76A263003ADCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E771874B2C76A263003ADCA6 /* AppDelegate.swift */; };
+		E771874E2C76A263003ADCA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E771874D2C76A263003ADCA6 /* SceneDelegate.swift */; };
+		E77187512C76A263003ADCA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E77187502C76A263003ADCA6 /* Base */; };
+		E77187542C76A263003ADCA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E77187532C76A263003ADCA6 /* Base */; };
+		E771875D2C76A263003ADCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E771875C2C76A263003ADCA6 /* AppDelegate.swift */; };
+		E77187602C76A263003ADCA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E771875F2C76A263003ADCA6 /* Base */; };
+		E77187682C76A263003ADCA6 /* Better Canvas Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E77187672C76A263003ADCA6 /* Better Canvas Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E77187722C76A263003ADCA6 /* Better Canvas Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E77187712C76A263003ADCA6 /* Better Canvas Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E77187782C76A263003ADCA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E771873C2C76A262003ADCA6 /* Base */; };
+		E77187792C76A263003ADCA6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E771873C2C76A262003ADCA6 /* Base */; };
+		E771877A2C76A263003ADCA6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E771873D2C76A262003ADCA6 /* Icon.png */; };
+		E771877B2C76A263003ADCA6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E771873D2C76A262003ADCA6 /* Icon.png */; };
+		E771877C2C76A263003ADCA6 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E771873E2C76A262003ADCA6 /* Style.css */; };
+		E771877D2C76A263003ADCA6 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E771873E2C76A262003ADCA6 /* Style.css */; };
+		E771877E2C76A263003ADCA6 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E771873F2C76A262003ADCA6 /* Script.js */; };
+		E771877F2C76A263003ADCA6 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E771873F2C76A262003ADCA6 /* Script.js */; };
+		E77187802C76A263003ADCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77187402C76A262003ADCA6 /* ViewController.swift */; };
+		E77187812C76A263003ADCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77187402C76A262003ADCA6 /* ViewController.swift */; };
+		E77187822C76A263003ADCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77187412C76A263003ADCA6 /* Assets.xcassets */; };
+		E77187832C76A263003ADCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77187412C76A263003ADCA6 /* Assets.xcassets */; };
+		E77187842C76A263003ADCA6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77187432C76A263003ADCA6 /* SafariWebExtensionHandler.swift */; };
+		E77187852C76A263003ADCA6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77187432C76A263003ADCA6 /* SafariWebExtensionHandler.swift */; };
+		E771879E2C76A263003ADCA6 /* css in Resources */ = {isa = PBXBuildFile; fileRef = E77187972C76A263003ADCA6 /* css */; };
+		E771879F2C76A263003ADCA6 /* js in Resources */ = {isa = PBXBuildFile; fileRef = E77187982C76A263003ADCA6 /* js */; };
+		E77187A02C76A263003ADCA6 /* html in Resources */ = {isa = PBXBuildFile; fileRef = E77187992C76A263003ADCA6 /* html */; };
+		E77187A12C76A263003ADCA6 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = E771879A2C76A263003ADCA6 /* _metadata */; };
+		E77187A22C76A263003ADCA6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E771879B2C76A263003ADCA6 /* manifest.json */; };
+		E77187A32C76A263003ADCA6 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E771879C2C76A263003ADCA6 /* _locales */; };
+		E77187A42C76A263003ADCA6 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = E771879D2C76A263003ADCA6 /* icon */; };
+		E77187A52C76A263003ADCA6 /* css in Resources */ = {isa = PBXBuildFile; fileRef = E77187972C76A263003ADCA6 /* css */; };
+		E77187A62C76A263003ADCA6 /* js in Resources */ = {isa = PBXBuildFile; fileRef = E77187982C76A263003ADCA6 /* js */; };
+		E77187A72C76A263003ADCA6 /* html in Resources */ = {isa = PBXBuildFile; fileRef = E77187992C76A263003ADCA6 /* html */; };
+		E77187A82C76A263003ADCA6 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = E771879A2C76A263003ADCA6 /* _metadata */; };
+		E77187A92C76A263003ADCA6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E771879B2C76A263003ADCA6 /* manifest.json */; };
+		E77187AA2C76A263003ADCA6 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E771879C2C76A263003ADCA6 /* _locales */; };
+		E77187AB2C76A263003ADCA6 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = E771879D2C76A263003ADCA6 /* icon */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E77187692C76A263003ADCA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77187352C76A262003ADCA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77187662C76A263003ADCA6;
+			remoteInfo = "Better Canvas Extension (iOS)";
+		};
+		E77187732C76A263003ADCA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77187352C76A262003ADCA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77187702C76A263003ADCA6;
+			remoteInfo = "Better Canvas Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E771878B2C76A263003ADCA6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E77187682C76A263003ADCA6 /* Better Canvas Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77187922C76A263003ADCA6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E77187722C76A263003ADCA6 /* Better Canvas Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E771873C2C76A262003ADCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		E771873D2C76A262003ADCA6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E771873E2C76A262003ADCA6 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		E771873F2C76A262003ADCA6 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		E77187402C76A262003ADCA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E77187412C76A263003ADCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E77187432C76A263003ADCA6 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		E77187482C76A263003ADCA6 /* Better Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Better Canvas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E771874B2C76A263003ADCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E771874D2C76A263003ADCA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E77187502C76A263003ADCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E77187532C76A263003ADCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E77187552C76A263003ADCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E771875A2C76A263003ADCA6 /* Better Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Better Canvas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E771875C2C76A263003ADCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E771875F2C76A263003ADCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E77187612C76A263003ADCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77187622C76A263003ADCA6 /* Better Canvas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Better Canvas.entitlements"; sourceTree = "<group>"; };
+		E77187672C76A263003ADCA6 /* Better Canvas Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Better Canvas Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E771876C2C76A263003ADCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77187712C76A263003ADCA6 /* Better Canvas Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Better Canvas Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77187762C76A263003ADCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77187772C76A263003ADCA6 /* Better Canvas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Better Canvas.entitlements"; sourceTree = "<group>"; };
+		E77187972C76A263003ADCA6 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../../Documents/betterSafariCanvas/css; sourceTree = "<group>"; };
+		E77187982C76A263003ADCA6 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = ../../Documents/betterSafariCanvas/js; sourceTree = "<group>"; };
+		E77187992C76A263003ADCA6 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = ../../Documents/betterSafariCanvas/html; sourceTree = "<group>"; };
+		E771879A2C76A263003ADCA6 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = ../../Documents/betterSafariCanvas/_metadata; sourceTree = "<group>"; };
+		E771879B2C76A263003ADCA6 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../Documents/betterSafariCanvas/manifest.json; sourceTree = "<group>"; };
+		E771879C2C76A263003ADCA6 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../Documents/betterSafariCanvas/_locales; sourceTree = "<group>"; };
+		E771879D2C76A263003ADCA6 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icon; path = ../../Documents/betterSafariCanvas/icon; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77187452C76A263003ADCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77187572C76A263003ADCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77187642C76A263003ADCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E771876E2C76A263003ADCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77187342C76A262003ADCA6 = {
+			isa = PBXGroup;
+			children = (
+				E77187392C76A262003ADCA6 /* Shared (App) */,
+				E77187422C76A263003ADCA6 /* Shared (Extension) */,
+				E771874A2C76A263003ADCA6 /* iOS (App) */,
+				E771875B2C76A263003ADCA6 /* macOS (App) */,
+				E771876B2C76A263003ADCA6 /* iOS (Extension) */,
+				E77187752C76A263003ADCA6 /* macOS (Extension) */,
+				E77187492C76A263003ADCA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77187392C76A262003ADCA6 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E77187402C76A262003ADCA6 /* ViewController.swift */,
+				E77187412C76A263003ADCA6 /* Assets.xcassets */,
+				E771873A2C76A262003ADCA6 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		E771873A2C76A262003ADCA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E771873B2C76A262003ADCA6 /* Main.html */,
+				E771873D2C76A262003ADCA6 /* Icon.png */,
+				E771873E2C76A262003ADCA6 /* Style.css */,
+				E771873F2C76A262003ADCA6 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E77187422C76A263003ADCA6 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E77187962C76A263003ADCA6 /* Resources */,
+				E77187432C76A263003ADCA6 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		E77187492C76A263003ADCA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77187482C76A263003ADCA6 /* Better Canvas.app */,
+				E771875A2C76A263003ADCA6 /* Better Canvas.app */,
+				E77187672C76A263003ADCA6 /* Better Canvas Extension.appex */,
+				E77187712C76A263003ADCA6 /* Better Canvas Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E771874A2C76A263003ADCA6 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E771874B2C76A263003ADCA6 /* AppDelegate.swift */,
+				E771874D2C76A263003ADCA6 /* SceneDelegate.swift */,
+				E771874F2C76A263003ADCA6 /* LaunchScreen.storyboard */,
+				E77187522C76A263003ADCA6 /* Main.storyboard */,
+				E77187552C76A263003ADCA6 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		E771875B2C76A263003ADCA6 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E771875C2C76A263003ADCA6 /* AppDelegate.swift */,
+				E771875E2C76A263003ADCA6 /* Main.storyboard */,
+				E77187612C76A263003ADCA6 /* Info.plist */,
+				E77187622C76A263003ADCA6 /* Better Canvas.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		E771876B2C76A263003ADCA6 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E771876C2C76A263003ADCA6 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		E77187752C76A263003ADCA6 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E77187762C76A263003ADCA6 /* Info.plist */,
+				E77187772C76A263003ADCA6 /* Better Canvas.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		E77187962C76A263003ADCA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E77187972C76A263003ADCA6 /* css */,
+				E77187982C76A263003ADCA6 /* js */,
+				E77187992C76A263003ADCA6 /* html */,
+				E771879A2C76A263003ADCA6 /* _metadata */,
+				E771879B2C76A263003ADCA6 /* manifest.json */,
+				E771879C2C76A263003ADCA6 /* _locales */,
+				E771879D2C76A263003ADCA6 /* icon */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77187472C76A263003ADCA6 /* Better Canvas (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E771878C2C76A263003ADCA6 /* Build configuration list for PBXNativeTarget "Better Canvas (iOS)" */;
+			buildPhases = (
+				E77187442C76A263003ADCA6 /* Sources */,
+				E77187452C76A263003ADCA6 /* Frameworks */,
+				E77187462C76A263003ADCA6 /* Resources */,
+				E771878B2C76A263003ADCA6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E771876A2C76A263003ADCA6 /* PBXTargetDependency */,
+			);
+			name = "Better Canvas (iOS)";
+			productName = "Better Canvas (iOS)";
+			productReference = E77187482C76A263003ADCA6 /* Better Canvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77187592C76A263003ADCA6 /* Better Canvas (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77187932C76A263003ADCA6 /* Build configuration list for PBXNativeTarget "Better Canvas (macOS)" */;
+			buildPhases = (
+				E77187562C76A263003ADCA6 /* Sources */,
+				E77187572C76A263003ADCA6 /* Frameworks */,
+				E77187582C76A263003ADCA6 /* Resources */,
+				E77187922C76A263003ADCA6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77187742C76A263003ADCA6 /* PBXTargetDependency */,
+			);
+			name = "Better Canvas (macOS)";
+			productName = "Better Canvas (macOS)";
+			productReference = E771875A2C76A263003ADCA6 /* Better Canvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77187662C76A263003ADCA6 /* Better Canvas Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77187882C76A263003ADCA6 /* Build configuration list for PBXNativeTarget "Better Canvas Extension (iOS)" */;
+			buildPhases = (
+				E77187632C76A263003ADCA6 /* Sources */,
+				E77187642C76A263003ADCA6 /* Frameworks */,
+				E77187652C76A263003ADCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Better Canvas Extension (iOS)";
+			productName = "Better Canvas Extension (iOS)";
+			productReference = E77187672C76A263003ADCA6 /* Better Canvas Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E77187702C76A263003ADCA6 /* Better Canvas Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E771878F2C76A263003ADCA6 /* Build configuration list for PBXNativeTarget "Better Canvas Extension (macOS)" */;
+			buildPhases = (
+				E771876D2C76A263003ADCA6 /* Sources */,
+				E771876E2C76A263003ADCA6 /* Frameworks */,
+				E771876F2C76A263003ADCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Better Canvas Extension (macOS)";
+			productName = "Better Canvas Extension (macOS)";
+			productReference = E77187712C76A263003ADCA6 /* Better Canvas Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77187352C76A262003ADCA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E77187472C76A263003ADCA6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E77187592C76A263003ADCA6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E77187662C76A263003ADCA6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E77187702C76A263003ADCA6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = E77187382C76A262003ADCA6 /* Build configuration list for PBXProject "Better Canvas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77187342C76A262003ADCA6;
+			productRefGroup = E77187492C76A263003ADCA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77187472C76A263003ADCA6 /* Better Canvas (iOS) */,
+				E77187592C76A263003ADCA6 /* Better Canvas (macOS) */,
+				E77187662C76A263003ADCA6 /* Better Canvas Extension (iOS) */,
+				E77187702C76A263003ADCA6 /* Better Canvas Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77187462C76A263003ADCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E771877A2C76A263003ADCA6 /* Icon.png in Resources */,
+				E77187512C76A263003ADCA6 /* Base in Resources */,
+				E77187782C76A263003ADCA6 /* Base in Resources */,
+				E771877E2C76A263003ADCA6 /* Script.js in Resources */,
+				E77187822C76A263003ADCA6 /* Assets.xcassets in Resources */,
+				E77187542C76A263003ADCA6 /* Base in Resources */,
+				E771877C2C76A263003ADCA6 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77187582C76A263003ADCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E771877B2C76A263003ADCA6 /* Icon.png in Resources */,
+				E771877D2C76A263003ADCA6 /* Style.css in Resources */,
+				E77187602C76A263003ADCA6 /* Base in Resources */,
+				E771877F2C76A263003ADCA6 /* Script.js in Resources */,
+				E77187832C76A263003ADCA6 /* Assets.xcassets in Resources */,
+				E77187792C76A263003ADCA6 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77187652C76A263003ADCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77187AA2C76A263003ADCA6 /* _locales in Resources */,
+				E77187A52C76A263003ADCA6 /* css in Resources */,
+				E77187AB2C76A263003ADCA6 /* icon in Resources */,
+				E77187A82C76A263003ADCA6 /* _metadata in Resources */,
+				E77187A92C76A263003ADCA6 /* manifest.json in Resources */,
+				E77187A72C76A263003ADCA6 /* html in Resources */,
+				E77187A62C76A263003ADCA6 /* js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E771876F2C76A263003ADCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77187A32C76A263003ADCA6 /* _locales in Resources */,
+				E771879E2C76A263003ADCA6 /* css in Resources */,
+				E77187A42C76A263003ADCA6 /* icon in Resources */,
+				E77187A12C76A263003ADCA6 /* _metadata in Resources */,
+				E77187A22C76A263003ADCA6 /* manifest.json in Resources */,
+				E77187A02C76A263003ADCA6 /* html in Resources */,
+				E771879F2C76A263003ADCA6 /* js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77187442C76A263003ADCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77187802C76A263003ADCA6 /* ViewController.swift in Sources */,
+				E771874C2C76A263003ADCA6 /* AppDelegate.swift in Sources */,
+				E771874E2C76A263003ADCA6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77187562C76A263003ADCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77187812C76A263003ADCA6 /* ViewController.swift in Sources */,
+				E771875D2C76A263003ADCA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77187632C76A263003ADCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77187842C76A263003ADCA6 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E771876D2C76A263003ADCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77187852C76A263003ADCA6 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E771876A2C76A263003ADCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77187662C76A263003ADCA6 /* Better Canvas Extension (iOS) */;
+			targetProxy = E77187692C76A263003ADCA6 /* PBXContainerItemProxy */;
+		};
+		E77187742C76A263003ADCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77187702C76A263003ADCA6 /* Better Canvas Extension (macOS) */;
+			targetProxy = E77187732C76A263003ADCA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E771873B2C76A262003ADCA6 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E771873C2C76A262003ADCA6 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		E771874F2C76A263003ADCA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77187502C76A263003ADCA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E77187522C76A263003ADCA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77187532C76A263003ADCA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E771875E2C76A263003ADCA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E771875F2C76A263003ADCA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E77187862C76A263003ADCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E77187872C76A263003ADCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E77187892C76A263003ADCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Canvas Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Better-Canvas.Extension";
+				PRODUCT_NAME = "Better Canvas Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E771878A2C76A263003ADCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Canvas Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Better-Canvas.Extension";
+				PRODUCT_NAME = "Better Canvas Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E771878D2C76A263003ADCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Canvas";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Better-Canvas";
+				PRODUCT_NAME = "Better Canvas";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E771878E2C76A263003ADCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Canvas";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Better-Canvas";
+				PRODUCT_NAME = "Better Canvas";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77187902C76A263003ADCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Better Canvas.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Canvas Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Better-Canvas.Extension";
+				PRODUCT_NAME = "Better Canvas Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E77187912C76A263003ADCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Better Canvas.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Canvas Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Better-Canvas.Extension";
+				PRODUCT_NAME = "Better Canvas Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E77187942C76A263003ADCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Better Canvas.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Canvas";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Better-Canvas";
+				PRODUCT_NAME = "Better Canvas";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E77187952C76A263003ADCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Better Canvas.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Canvas";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Better-Canvas";
+				PRODUCT_NAME = "Better Canvas";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77187382C76A262003ADCA6 /* Build configuration list for PBXProject "Better Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77187862C76A263003ADCA6 /* Debug */,
+				E77187872C76A263003ADCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77187882C76A263003ADCA6 /* Build configuration list for PBXNativeTarget "Better Canvas Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77187892C76A263003ADCA6 /* Debug */,
+				E771878A2C76A263003ADCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E771878C2C76A263003ADCA6 /* Build configuration list for PBXNativeTarget "Better Canvas (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E771878D2C76A263003ADCA6 /* Debug */,
+				E771878E2C76A263003ADCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E771878F2C76A263003ADCA6 /* Build configuration list for PBXNativeTarget "Better Canvas Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77187902C76A263003ADCA6 /* Debug */,
+				E77187912C76A263003ADCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77187932C76A263003ADCA6 /* Build configuration list for PBXNativeTarget "Better Canvas (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77187942C76A263003ADCA6 /* Debug */,
+				E77187952C76A263003ADCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77187352C76A262003ADCA6 /* Project object */;
+}
